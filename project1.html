@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A.K FITTNESS GYM</title>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap" rel="stylesheet">
+
+    <style>
+        /* css reset */
+        body{
+            font-family: 'Baloo Bhai 2', cursive;
+            color: white;
+            margin:0px;
+            padding: 0px;
+            background: url('file:///C:/Users/hp/Downloads/man-2604149_1920.jpg');
+            font-weight: bold;
+        }
+        .left{
+            /* border: 2px solid red; */
+            display: inline-block;
+           position:absolute;
+           left: 60px;
+           top:20px;
+        }
+        .left img{
+                  width: 60px;
+                  filter:invert(100%);
+        }
+        .left div{
+            line-height: 19px;
+            font-size: 26px;
+            text-align: center;
+        }
+
+        .mid{
+            /* border: 2px solid green; */
+            display: block;
+            width:45%;
+            margin: 2px auto;
+            }
+       .right{
+           /* border: 2px solid red; */
+           display: inline-block;
+           position:absolute;
+           right: 34px;
+           top: 20px;
+         }
+         .navbar{
+             display: inline-block;
+         }
+         .navbar li{
+             display: inline-block;
+             font-size:15px;
+            }
+            .navbar li a{
+                color:white;
+                text-decoration: none;
+                padding: 34px 23px;
+         }
+         .navbar li a:hover,.navbar li a.active{
+              text-decoration:underline;
+              color: grey;
+             }
+             .btn{
+                font-family: 'Baloo Bhai 2', cursive;
+               margin:0px 9px;
+               background-color: black;
+               color: white;
+               padding :4px 14px;
+               border-radius: 2px solid grey;
+               border-radius: 10px;
+               font-size: 10 px;
+               cursor: pointer;
+               font-weight: bold;
+
+             }
+             .btn:hover{
+                 background-color: darkblue;
+             }
+             .container{
+                 /* border: 2px solid grey; */
+                 margin: 70px -40px;;
+                 padding:75px ;
+                 width:48%;
+                 border-radius: 28px;
+                  }
+             .form-group input {
+                font-family: 'Baloo Bhai 2', cursive;
+                 text-align: center;
+                 display: block;
+                 width:55%;
+                 padding:1px;
+                 border: 2px solid red;
+                 margin: 12px auto;
+                 font-size: 14px;
+                 border-radius:8px ;
+             }
+             .container h1{
+                 text-align: center ;
+                
+             }
+             .container button{
+                 display: block;
+                  width: 38%;
+                 margin: 12px auto;
+             }
+
+    </style>
+</head>
+<body>
+    
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+            <!-- i am left -->
+            <img src="file:///C:/Users/hp/Downloads/crossfit-3409475_1280.png">
+            <!-- <img src="file:///C:/Users/hp/Download/sgym-6560336_1280.png"> -->
+
+            <div> A.K.M FITTNESS GYM </div>
+        </div>
+    <!-- mid box for nav bar -->
+    <div class="mid">
+            <ul class="navbar">
+                <li> <a href="#" class="active"> Home</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Fittness calculator</a></li>
+                <li><a href="#"> About us</a></li>
+                </ul>
+            <!-- i am mid -->
+        </div>
+        <!-- right box for buttons -->
+        <div class="right">
+            <!-- i am right -->
+            <button class="btn"> Call us now</button>
+            <button class="btn"> Email us</button>
+        </div>
+    
+    </header>
+        <div class="container">
+            <!-- hello container -->
+          <h1> JOIN BEST A.k.M FITTNESS GYM IN PUNJAB NOW</h1>
+          <form action="no action.php">
+              <div class="form-group">
+                  <input type="text" name="" placeholder="enter your name">
+              </div>
+              <div class="form-group">
+                <input type="number" name="phone number" placeholder="Mobile number">
+            </div>
+            <div class="form-group">
+                <input type="text" name="my email" placeholder="enter u email">
+            </div>
+            <div class="form-group">
+                <input type="number" name="" placeholder="enter your age">
+            </div>
+            <div class="form-group">
+                <input type="textr" name="" placeholder="Address  & District">
+            </div>
+           <button class="btn"> submit now</button>
+
+          </form>
+        </div>
+</body>
+</html>

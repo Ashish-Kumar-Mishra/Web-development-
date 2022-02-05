@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrow function tutorial</title>
+</head>
+<body>
+    <div class="container">
+        This is arrow function tutorial.
+    </div>
+    <script>
+        //Arrow function
+        // greet = ()=> {
+        //     console.log('Good Morning');
+        // }
+
+        let greet=()=>console.log('Good morning')
+
+        greet = ()=> {
+            console.log('Good Morning');
+        }
+
+
+        // let sum=(a,b)=>{
+        //     return a+b;
+        // };
+
+        let sum =(a,b)=>a+b;
+        let half=a=>a/2;
+        
+    
+
+        // function greet(){
+        // console.log('Good Morning');
+        // }
+
+        greet();
+        setTimeout(() => {
+           console.log("we are inside settimeout");
+        }, 5000);
+        
+        let obj1={
+            names:["Ashish","Ash","anmol","djbabu"],
+            speak(){
+                this.names.forEach((student)=>{
+                    console.log(this.greeting +"kukuddo koo"+student);
+
+                })
+            }
+        }
+       obj1.speak();
+        
+        // gives error as in foreach function bis defined so it access inside its body only
+        // let obj1={
+        //     names:["Ashish","Ash","anmol","djbabu"],
+        //     speak(){
+        //         this.names.forEach(function s(student)=>{
+        //             console.log(this.greeting +"kukuddo koo"+student);
+
+        //         })
+        //     }
+        // }
+
+        // obj1.speak();
+    </script>
+</body>
+</html>
